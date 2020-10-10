@@ -1,0 +1,34 @@
+
+
+:root {
+    --color-bacground: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: inherit;
+    background-color: var(--color-bacground);
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* 
+box trong */
+.grid {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_fullwidth {
+    width: 100%;
+
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+}
