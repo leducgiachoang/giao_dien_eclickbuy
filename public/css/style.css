@@ -32,3 +32,258 @@ box trong */
     display: flex;
     flex-wrap: wrap;
 }
+/* phần thắng làm */
+.title_bash h4 {
+    background-color: #426fff;
+    font-weight: 800;
+    line-height: 60px;
+    color: #fff;
+    padding: 0 55px 0 20px;
+    font-size: 21px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+}
+
+.title_bash {
+    padding-left: 0px;
+}
+
+.title_bash1 h4 {
+    background-color: #ef4339;
+    font-weight: 800;
+    line-height: 60px;
+    color: #fff;
+    padding: 0 55px 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+}
+
+.title_bash1 {
+    padding-left: 0px;
+}
+
+.title_bash2 h4 {
+    background-color: #655fff;
+    font-weight: 800;
+    line-height: 60px;
+    color: #fff;
+    padding: 0 55px 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+}
+
+.title_bash2 {
+    padding-left: 0px;
+}
+
+.title_bash3 h4 {
+    background-color: #66bd41;
+    font-weight: 800;
+    line-height: 60px;
+    color: #fff;
+    padding: 0 55px 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+}
+
+.title_bash3 {
+    padding-left: 0px;
+}
+
+.menu_bash {
+    padding-right: 0px;
+}
+
+.justify-content-end {
+    font-size: 15px;
+    line-height: 60px;
+}
+
+.name_product {
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.img-right {
+    border: 1px solid #e4e4e4;
+}
+
+.compare-price {
+    color: #7d7d7d;
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+
+.promos {
+    font-size: 12px;
+    margin-left: -25px;
+}
+
+.smart {
+    width: 35px;
+    height: 30px;
+    line-height: 25px;
+    box-sizing: content-box;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #ef4339;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: none;
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 50% 82%, 0 100%);
+}
+
+.product-info {
+    width: 100%;
+    float: left;
+    padding: 10px 14px 15px 14px;
+    text-align: left;
+}
+
+.product-info a {
+    text-decoration: none;
+}
+
+.product {
+    margin-top: -10px;
+}
+
+.three-product {
+    border: 1px solid #e4e4e4;
+    border-left: 0px;
+}
+
+.container {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid greenyellow;
+}
+
+.product:hover .image {
+    opacity: 0.3;
+}
+
+.product:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    font-size: 26px;
+    padding: 8px 16px;
+
+}
+
+#img_product {
+    padding: 10px;
+}
+
+.product-thumbnail {
+    padding: 10px;
+}
+
+.banner {
+    margin-top: 15px;
+}
+
+.banner {
+    margin-bottom: 15px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+
+.owl-theme .owl-nav>div {
+    color: rebeccapurple;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    display: none;
+    top: 40%;
+    background-color: none;
+}
+
+.owl-theme .owl-next {
+    position: absolute;
+    top: 40%;
+    right: -10px;
+    background-color: none;
+}
+
+.banner1 .left {
+    padding-left: 0px;
+}
+
+.banner1 .right {
+    padding-right: 0px;
+}
+
+.banner1 {
+    margin-bottom: 15px;
+}
+
+.banner2 {
+    margin-bottom: 15px;
+}
+
+.banner2 .left {
+    padding-left: 0px;
+}
+
+.banner2 .right {
+    padding-right: 0px;
+}
+
+.product1 {
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .banner1 .left {
+        padding-right: 0px;
+    }
+
+    .banner1 .right {
+        padding-left: 0px;
+        margin-top: 2px;
+    }
+
+    .banner2 .left {
+        padding-right: 0px;
+    }
+
+    .banner2 .right {
+        padding-left: 0px;
+        margin-top: 2px;
+    }
+}
+/* hết phẩn thắng làm */
